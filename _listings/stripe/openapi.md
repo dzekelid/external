@@ -4,7 +4,7 @@ x-collection-name: Stripe
 x-complete: 1
 info:
   title: Stripe
-  description: the-stripe-rest-api-please-see-httpsstripecomdocsapi-for-more-details
+  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
