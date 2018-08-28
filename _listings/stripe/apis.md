@@ -9,130 +9,144 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: External
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Get Account External Accounts
-  x-api-slug: stripe
+- name: Stripe - Get Account External Accounts
+  x-api-slug: accountexternal-accounts-get
   description: Get Account, External, Accounts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///account/external_accounts
-  tags: Account, External, Accounts
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountexternal-accounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountexternal-accounts-get-openapi.md
-- name: Stripe Add Account External Accounts
-  x-api-slug: stripe
+- name: Stripe - Add Account External Accounts
+  x-api-slug: accountexternal-accounts-post
   description: Post Account, External, Accounts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///account/external_accounts
-  tags: Account, External, Accounts
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountexternal-accounts-post-openapi.md
-- name: Stripe Delete Account External Accounts
-  x-api-slug: stripe
+- name: Stripe - Delete Account External Accounts
+  x-api-slug: accountexternal-accountsid-delete
   description: Delete Account, External, Accounts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///account/external_accounts/{id}
-  tags: Account, External, Accounts
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountexternal-accountsid-delete-openapi.md
-- name: Stripe Get Account External Accounts
-  x-api-slug: stripe
+- name: Stripe - Get Account External Accounts
+  x-api-slug: accountexternal-accountsid-get
   description: Get Account, External, Accounts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///account/external_accounts/{id}
-  tags: Account, External, Accounts
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountexternal-accountsid-get-openapi.md
-- name: Stripe Add Account External Accounts
-  x-api-slug: stripe
+- name: Stripe - Add Account External Accounts
+  x-api-slug: accountexternal-accountsid-post
   description: Updates the metadata of a bank account belonging to a Custom account,
     and optionally sets it as the default for its currency. Other bank account details
     are not editable by design.You can re-enable a disabled bank account by performing
     an update call without providing any arguments or changes.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///account/external_accounts/{id}
-  tags: Account, External, Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountexternal-accountsid-post-openapi.md
-- name: Stripe Get Accounts Account External Accounts
-  x-api-slug: stripe
-  description: Get Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts
-  tags: Accounts, Account, External, Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accounts-get-openapi.md
-- name: Stripe Add Accounts Account External Accounts
-  x-api-slug: stripe
-  description: Post Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts
-  tags: Accounts, Account, External, Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accounts-post-openapi.md
-- name: Stripe Delete Accounts Account External Accounts
-  x-api-slug: stripe
-  description: Delete Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts/{id}
-  tags: Accounts, Account, External, Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accountsid-delete-openapi.md
-- name: Stripe Get Accounts Account External Accounts
-  x-api-slug: stripe
-  description: Get Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts/{id}
-  tags: Accounts, Account, External, Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accountsid-get-openapi.md
-- name: Stripe Add Accounts Account External Accounts
-  x-api-slug: stripe
-  description: Updates the metadata of a bank account belonging to a Custom account,
-    and optionally sets it as the default for its currency. Other bank account details
-    are not editable by design.You can re-enable a disabled bank account by performing
-    an update call without providing any arguments or changes.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts/{id}
-  tags: Accounts, Account, External, Accounts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accountsid-post-openapi.md
-- name: Stripe
-  x-api-slug: stripe
-  description: Web and mobile payments, built for developers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
-  tags: External
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountexternal-accountsid-post-openapi.md
+- name: Stripe - Get Accounts Account External Accounts
+  x-api-slug: accountsaccountexternal-accounts-get
+  description: Get Accounts, Account, External, Accounts
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accounts-get-openapi.md
+- name: Stripe - Add Accounts Account External Accounts
+  x-api-slug: accountsaccountexternal-accounts-post
+  description: Post Accounts, Account, External, Accounts
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accounts-post-openapi.md
+- name: Stripe - Delete Accounts Account External Accounts
+  x-api-slug: accountsaccountexternal-accountsid-delete
+  description: Delete Accounts, Account, External, Accounts
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accountsid-delete-openapi.md
+- name: Stripe - Get Accounts Account External Accounts
+  x-api-slug: accountsaccountexternal-accountsid-get
+  description: Get Accounts, Account, External, Accounts
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accountsid-get-openapi.md
+- name: Stripe - Add Accounts Account External Accounts
+  x-api-slug: accountsaccountexternal-accountsid-post
+  description: Updates the metadata of a bank account belonging to a Custom account,
+    and optionally sets it as the default for its currency. Other bank account details
+    are not editable by design.You can re-enable a disabled bank account by performing
+    an update call without providing any arguments or changes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/external/master/_listings/stripe/accountsaccountexternal-accountsid-post-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stride.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stripe.stack.network
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog
